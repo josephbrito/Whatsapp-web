@@ -1,0 +1,27 @@
+.chat-main {
+  position: relative;
+  height: calc(100vh - 16vh);
+  background: url("../assets/images/chat-main.jpg") no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: color;
+}
+
+.lMessage-container {
+  position: absolute;
+  left: 0;
+  color: white;
+  width: 200px;
+  word-break: break-all;
+  word-wrap: break-word;
+  background: #202c33;
+  padding-left: 10px;
+  padding-right: 100px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+
+.rMessage-container {
+  position: absolute;
+  right: 0;
+  color: white;
+}

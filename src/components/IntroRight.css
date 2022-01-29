@@ -1,0 +1,37 @@
+.container {
+  background-color: #222e35;
+  height: calc(100vh - 8px);
+  width: calc(100vw - 30vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid #169d84;
+}
+
+.intro-container {
+  width: 60%;
+  text-align: center;
+}
+
+.img-intro img {
+  width: 300px;
+}
+
+.keep {
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.keep h1 {
+  color: #eee;
+}
+
+.keep p {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.ads p {
+  color: gray;
+}

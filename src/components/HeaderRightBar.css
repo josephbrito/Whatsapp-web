@@ -1,0 +1,35 @@
+.nav-list-right {
+  height: 6.3vh;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100vw - 30vw - 22px);
+  padding: 0 10px;
+  align-items: center;
+  color: #eee;
+  background-color: #202c33;
+  border-bottom: 1px solid #202c33;
+  border-left: 1px solid #202c33;
+}
+
+.list-tools-right {
+  display: flex;
+  list-style: none;
+  gap: 1.4rem;
+  font-size: 1.2rem;
+}
+
+.list-tools-right li {
+  cursor: pointer;
+}
+
+.photo-right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.photo-right img {
+  height: 100%;
+  border-radius: 70%;
+}

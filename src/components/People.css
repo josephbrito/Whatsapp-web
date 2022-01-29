@@ -1,0 +1,4 @@
+.main-chat {
+  height: calc(100vh - 16vh - 1px);
+  background-color: #111b21;
+}

@@ -1,0 +1,45 @@
+.person {
+  height: 10vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.1rem;
+  transition: 0.5s;
+}
+
+.person:hover {
+  background-color: rgba(243, 230, 230, 0.1);
+}
+
+.data {
+  padding: 15px 0;
+  width: 100%;
+}
+
+.photo-person {
+  height: 100%;
+  width: 75px;
+  cursor: pointer;
+}
+
+.photo-person img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.name-person {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.message {
+  color: gray;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
